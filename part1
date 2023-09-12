@@ -1003,7 +1003,7 @@ print_success "All Packet"
 function menu(){
     clear
     print_install "Memasang Menu Packet"
-    wget https://xlordhost.net/friendly/wkwk.zip
+    wget https://raw.githubusercontent.com/cukuptauu/xlordstore/main/friendly/wkwk.zip
     unzip wkwk.zip
     chmod +x wkwk/*
     mv menu/* /usr/local/sbin
